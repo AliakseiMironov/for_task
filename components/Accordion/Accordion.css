@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    width: 600px;
+    background-color: #e0e9f0;
+}
+
+.accordion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.accordion-card{
+    margin-bottom: 50px;
+}
+
+.accordion-header{
+    cursor: pointer;
+    background-color: #b9d7f0;
+}
+
+/* .accordion-content{
+    max-height: 0;
+    visibility: hidden;
+} */
+
+.accordion-card.active{
+    display: block;
+}
+
+/* .accordion .accordion-card .accordion-content{
+    position: relative;
+
+} */
+
+.accordion-card .accordion-content{
+    display: none;
+}
