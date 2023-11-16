@@ -1,0 +1,13 @@
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    text-decoration: none;
+    background-color: aquamarine;
+    border-radius: 1 solid red;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
